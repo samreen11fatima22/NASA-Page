@@ -1,0 +1,49 @@
+.section3 {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#release {
+    margin-top: 50px;
+    color: rgb(8, 7, 7);
+    display: block;
+    position: absolute;
+    bottom: 200px;
+    text-align: center;
+}
+.section3 .box1{
+    width: 30%;
+    height: 300px;
+    padding-left: 40px;
+    
+}
+.section3 .box2{
+    width: 70%;
+    height: 300px;
+    color: black;
+    
+
+}
+
+.box1 img{
+    width:400px;
+    height: 250px;
+
+}
+.box2 p,h2{
+    color: black;
+    line-height: 45px;
+    font-size: 1.5em;
+}
+.box2 h2 {
+    font-size: 2em;
+}
+.box2 span {
+    letter-spacing: 5px;
+    color: rgb(231, 17, 17);
+}

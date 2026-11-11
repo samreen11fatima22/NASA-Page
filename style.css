@@ -1,0 +1,282 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:  Georgia, Times, "Times New Roman", serif;
+  font-family: inter;
+  color: whitesmoke;
+}
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+.nav {
+  background-color:rgba(0,0,0,0.6);
+  color: rgb(248, 238, 238);
+  display: flex;
+  justify-content: baseline;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  margin-bottom: 0px;
+  font-size: 25px;
+
+  /* position: fixed; */
+}
+.nav > img {
+  width: 77px;
+  height: 77px;
+}
+button {
+  background-color: transparent;
+  color: grey;
+  font-size: 27px;
+  width: 250px;
+  height: 35px;
+  text-align: left;
+
+  border: 1px solid rgb(199, 194, 194);
+padding-left: 10px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+ul li {
+    list-style: none;
+    padding-right: 30px;
+
+}
+ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.main {
+  background-image: url(images/nasa-hero\ 2.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.main #hero {
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  width: 50%;
+  height: 400px;
+  padding-left: 40px;
+  margin: 30px;
+  text-align: left;
+  line-height: 30px;
+}
+.container {
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    display: flex;
+    line-height: 30px;
+
+
+
+    
+    
+}
+.item1 {
+    padding-top: 10px;
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    margin-left: 30px;
+    border-top: 1px solid white;
+    
+}
+.item1 h2{
+    color: red;
+
+}
+#hero h1{
+    color: red;
+    font-size: 60px;
+    line-height: 64px;
+    margin-bottom: 10px;
+        text-shadow: 5px 0px 2px rgb(109, 9, 9);
+
+
+}
+#hero button {
+    width: 200px;
+    height: 45px;
+    background-color: red;
+    color: beige;
+    font-weight:bolder;
+    font-size: x-large;
+    padding: 2px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.section1{
+    color: rgb(9, 9, 9);
+
+    background-color: white;
+    margin: 50px;
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: black;
+}
+.section1 h1{
+    
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.section2 {
+    background-image: url(images/NASA-HERO.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* margin-bottom: 30px; */
+   
+}
+.section2 #explore{
+   /* border: 2px solid white; */
+   position: relative;
+   top: 90px;
+   width: 50%;
+   height: 400px;
+   padding: 50px;
+   line-height: 40px;
+   text-align: left;
+}
+#explore h2 {
+    color: whitesmoke;
+    font-size: 3em;
+    line-height: 1.2em;
+    text-shadow: 10px 0px 5px black;
+    
+}
+#explore button{
+    color: #f90909;
+    /* background-color: brown; */
+    font-size: 2em;
+    border: none;
+    /* border-radius: 999px; */
+    font-weight: bolder;
+    background-color: black;
+    padding: 25px 40px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-top: 50px;
+    border-bottom: 5px solid whitesmoke;
+
+    
+}
+
+.human {
+    display: flex;
+    /* background-color: bisque; */
+    width: 100%;
+    height: 50%;
+    margin: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    color: whitesmoke;
+
+}
+.human h2{
+    position: relative;
+    left: 30px;
+    
+}
+.div1 {
+    width: 300px;
+    margin: 10px;
+    height: 350px;
+    border: 3px solid black;
+    background-image: url(images/1.webp);
+    background-size: cover;
+    border: 1px solid whitesmoke;
+    border-bottom: 5px groove red;
+
+}
+.div1 h2{
+    position: relative;
+    top: 280px;
+}
+
+.div2 {
+    width: 300px;
+    margin: 10px;
+    height: 400px;
+    border: 3px solid black;
+    background-image: url(images/2.webp);
+    background-size: cover;
+        border: 1px solid whitesmoke;
+            border-bottom: 5px groove red;
+
+}
+.div2 h2{
+    position: relative;
+    top:320px;
+}
+.div3 {
+    width: 300px;
+    margin: 10px;
+    height: 450px;
+    border: 3px solid black;
+    background-image: url(images/3.webp);
+    background-size: cover;
+        border: 1px solid whitesmoke;
+            border-bottom: 5px groove red;
+            
+}
+.div3 h2{
+    position: relative;
+    top:350px ;
+}
+.div4 {
+    width: 300px;
+    margin: 10px;
+    height: 500px;
+    border: 3px solid black;
+    background-image: url(images/4.webp);
+    background-size: cover;
+        border: 1px solid whitesmoke;
+            border-bottom: 5px groove red;
+}
+.div4 h2{
+    position: relative;
+    top: 400px;
+}
+
+
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:30px;
+    color:#777;
+}
+
+.watsap{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 60px;
+    right: 100px;
+    z-index: 999;
+    color: green;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: green;
+    
+}

@@ -1,0 +1,107 @@
+.Featured {
+    width: 100vw;
+    height: 500px;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    margin-top: 0px;
+
+    
+
+}
+.Featured div{
+    width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+}
+.Featured h2{
+    text-align: center;
+    margin: 40px 0px;
+    color: white;
+}
+
+div .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    width: 400px;
+    height: 300px;
+    background-color: black;
+/* border: 1px solid red; */
+margin: 30px  20px;
+
+}
+
+div .a1{
+    width: 600px;
+    height: 400px;
+    justify-self: flex-end;
+    background-image: url(images/ESCAPADE_TMI.jpg);
+    background-size: cover;
+   
+}
+div .b2{
+    width: 300px;
+    height: 400px;
+    justify-self: flex-end;
+    background-image: url(images/2.jpg);
+    background-size: cover;
+   
+    
+   
+}
+div .c3{
+    width: 250px;
+    height: 200px;
+    justify-self: flex-end;
+    background-image: url(images/at2016blu.jpg);
+    background-size: cover;
+    position: relative;
+    bottom: 100px;
+   
+}
+div .d4{
+    gap: 2px;
+    width: 250px;
+    height: 200px;
+    justify-self: flex-end;
+justify-content: center;
+align-items: center;
+position: relative;
+left: 490px;
+bottom: 254px;
+background-image: url(images/iss075e0227339-social.webp);
+background-size: cover;
+   
+}
+.items p{
+    padding-bottom: 50px;
+    width: min-content;
+    width: 200px;
+    text-align: left;
+
+}
+.items span{
+    padding-bottom: 50px;
+    width: min-content;
+    width: 150px;
+    align-self: baseline;
+    position: relative;
+    top: 10px;
+    right: 40px;
+}
+#News {
+    text-align: left;
+    font-size: 50px;
+    background-color: whitesmoke;
+    color: rgb(8, 8, 8);
+    padding-top: 50px;
+    padding-left: 60px;
+    margin-top: 0px;
+}
+
+
