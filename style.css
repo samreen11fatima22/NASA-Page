@@ -137,6 +137,14 @@ ul li a {
     margin-bottom: 50px;
 
 }
+.section1 h2{
+    
+    text-align: left;
+    margin-bottom: 30px;
+    
+}
+
+
 .section2 {
     background-image: url(images/NASA-HERO.jpg);
     background-attachment: fixed;
@@ -196,6 +204,7 @@ ul li a {
     position: relative;
     left: 30px;
     
+    
 }
 .div1 {
     width: 300px;
@@ -206,6 +215,7 @@ ul li a {
     background-size: cover;
     border: 1px solid whitesmoke;
     border-bottom: 5px groove red;
+    color: whitesmoke;
 
 }
 .div1 h2{
@@ -227,6 +237,7 @@ ul li a {
 .div2 h2{
     position: relative;
     top:320px;
+    
 }
 .div3 {
     width: 300px;
